@@ -14,6 +14,7 @@ import retrofit.Call;
 import retrofit.GsonConverterFactory;
 import retrofit.Response;
 import retrofit.Retrofit;
+import roboguice.util.Ln;
 
 import static com.beautydroid.caramel.common.common.ScreenOutputs.println;
 import static junit.framework.Assert.assertEquals;
@@ -82,9 +83,7 @@ public class FootballTest {
         println("message %s", response.message());
         println("error body %s", response.errorBody().string());
         //println("raw %s", response.raw().body().string());
-
     }
-
 
     @Test
     @Ignore

@@ -19,6 +19,6 @@ public interface IApiRetrofitFootballData {
     Call<List<SeasonMsg>> listSeason(@Header("X-Auth-Token")String token, @Query("season") int season);
 
     @GET("soccerseasons/{seasonId}")
-    Call<SeasonMsg> getSeason(@Path("seasonId") int seasonId);
+    Call<SeasonMsg> getSeason(@Header("X-Auth-Token")String token, @Path("seasonId") int seasonId);
 
 }
