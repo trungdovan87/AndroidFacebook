@@ -66,7 +66,7 @@ public class FootballTest {
         println("code %d", response.code());
         //println("header %s", response.headers());
         println("message %s", response.message());
-        println("error body %s", response.errorBody().string());
+
     }
 
     @Test
