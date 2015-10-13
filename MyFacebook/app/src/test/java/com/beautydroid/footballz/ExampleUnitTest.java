@@ -1,4 +1,4 @@
-package com.beautydroid.myfacebook.core;
+package com.beautydroid.footballz;
 
 import org.junit.Test;
 

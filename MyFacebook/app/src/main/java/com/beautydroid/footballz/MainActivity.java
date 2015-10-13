@@ -1,4 +1,4 @@
-package com.beautydroid.myfacebook;
+package com.beautydroid.footballz;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

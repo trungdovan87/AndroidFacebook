@@ -1,4 +1,4 @@
-package com.beautydroid.myfacebook.core;
+package com.beautydroid.footballz.core;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

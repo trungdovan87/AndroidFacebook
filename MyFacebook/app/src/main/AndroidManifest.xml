@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.beautydroid.myfacebook"
+    package="com.beautydroid.footballz"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <!--check this: android:theme="@style/AppTheme" -->
     <application
@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity
-            android:name=".MainActivity"
+            android:name="com.beautydroid.footballz.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
