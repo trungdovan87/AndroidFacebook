@@ -9,3 +9,4 @@ master
 ads
 test ssh system
 test ssh system over ssh (not http)
+use ssh on smartgit
